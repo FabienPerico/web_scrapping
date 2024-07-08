@@ -8,10 +8,10 @@ import sys
 import keyboard
 # Load playwright's library to browse the Web
 from playwright.async_api import async_playwright
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
-import csv
+# Load library to navagate in os file
+import os
+# Load library to hide the password
+import getpass
 
 async def login(page):
         # Open the page on LinkedIn Identification URL
